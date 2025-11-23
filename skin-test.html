@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin Test – BioGlow</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="skin-test.js"></script>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="bioglow.jpg">
+    <span>BioGlow</span>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a class="active" href="skin-test.html">Test Skin</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="featured">
+  <h2>Skin Type Test</h2>
+
+  <div class="checkout-left">
+
+    <label>1. How does your skin feel after washing?</label>
+    <select id="q1">
+      <option value="dry">Dry</option>
+      <option value="oily">Oily</option>
+      <option value="normal">Normal</option>
+      <option value="mixed">Mixed</option>
+    </select>
+
+    <label>2. Do you get shiny areas?</label>
+    <select id="q2">
+      <option value="oily">Yes, very shiny</option>
+      <option value="mixed">Only T-zone</option>
+      <option value="normal">Sometimes</option>
+      <option value="dry">Rarely</option>
+    </select>
+
+    <button class="btn" onclick="testSkin()">Show Result</button>
+
+  </div>
+
+  <div id="result"></div>
+
+</section>
+
+</body>
+</html>

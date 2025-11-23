@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details – BioGlow</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="product-details.js"></script>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="bioglow.jpg">
+    <span>BioGlow</span>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="skin-test.html">Test Skin</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">🛒</a>
+  </nav>
+</header>
+
+<section class="featured">
+  <h2 id="pName"></h2>
+
+  <div class="details-box">
+    <img id="pImg">
+    <div class="info">
+      <h3 id="pPrice"></h3>
+      <p id="pDesc"></p>
+
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
